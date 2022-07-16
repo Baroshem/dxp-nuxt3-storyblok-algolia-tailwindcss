@@ -1,9 +1,6 @@
 <template>
   <div>
-    <h2 class="text-xl font-bold">Storyblok</h2>
-    {{ story }}
-    <h2>Algolia</h2>
-    {{ result }}
+    <cat-image-gallery :images="story.content.body"/>
   </div>
 </template>
 
