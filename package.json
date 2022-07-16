@@ -10,6 +10,7 @@
     "nuxt": "3.0.0-rc.5"
   },
   "dependencies": {
-    "@nuxtjs/algolia": "^1.0.1"
+    "@nuxtjs/algolia": "^1.0.1",
+    "@storyblok/nuxt": "^4.0.1"
   }
 }

@@ -526,7 +526,7 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.3", "@nuxt/kit@^3.0.0-rc.5":
+"@nuxt/kit@^3.0.0-rc.2", "@nuxt/kit@^3.0.0-rc.3", "@nuxt/kit@^3.0.0-rc.5":
   version "3.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.5.tgz#4ee104e517910ed26132583d7adaff88bdd8d89a"
   integrity sha512-PmRfy0AdpvYne5p1/QWXOFoJawnjC/p2TkEJeCgI7MMHP7U2ru/7MxM7x0+ScjD13fUd4KSv1bCMJRTCoaCzPQ==
@@ -729,6 +729,28 @@
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
+
+"@storyblok/js@^1.6.1":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-1.6.3.tgz#01e51fcd0c825197f7b4df279b5413cf1453aace"
+  integrity sha512-8VUPLoe4RlSPkOGcc+u9WbzZwDlY9tCxKcNg48F/jifx32zVeyVuAAYo7RLZNbDcV4QEr6aoAppxdBF+slD5Kg==
+  dependencies:
+    storyblok-js-client "^4.5.6"
+
+"@storyblok/nuxt@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-4.0.1.tgz#66098849bb5310d0ba1a63564e102040abf4a551"
+  integrity sha512-bZke7+lfpJeHkLcIvaygWfa62PUYrDFquMdCLH8zIBTAQTHAlCZDCb0LLyOtIv0S+6u6iZAGiJu7W3Z+tuRCDQ==
+  dependencies:
+    "@nuxt/kit" "^3.0.0-rc.2"
+    "@storyblok/vue" "^6.0.3"
+
+"@storyblok/vue@^6.0.3":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue/-/vue-6.1.0.tgz#56fe6063294c471c8f6644b19da84ce4cf878a53"
+  integrity sha512-MlJ5c7FR5aOW83V6nNnH4F8t1Py72Qzz6LSyIysFN8i/t4UTIgOcJ/7WaJuBcFF69yBx3efvRkKKnVakq5cqQw==
+  dependencies:
+    "@storyblok/js" "^1.6.1"
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
@@ -4175,7 +4197,7 @@ storyblok-algolia-indexer@^1.0.2:
     axios "^0.25.0"
     storyblok-js-client "^4.2.0"
 
-storyblok-js-client@^4.2.0:
+storyblok-js-client@^4.2.0, storyblok-js-client@^4.5.6:
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.6.tgz#caab0bb1ead8618f84afcc35be9305883d85e628"
   integrity sha512-S0cXKkEqGDibD32K48FFodjeu/+eF++nrHhrLzo/bKxrnyQiPChPccFAnzsJCQ6uMvRuVGZzjKwM5/sMeBRthg==

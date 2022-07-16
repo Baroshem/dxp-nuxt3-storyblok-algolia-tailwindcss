@@ -10,5 +10,6 @@ export default defineNuxtConfig({
         applicationId: process.env.ALGOLIA_APP_ID,
       },
     ],
+    ["@storyblok/nuxt", { accessToken: process.env.STORYBLOK_ACCESS_TOKEN }],
   ],
 });
